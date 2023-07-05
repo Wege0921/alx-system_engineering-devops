@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -apv | grep -E "/$|^[0-9A-Za-z]" | tr '\n' ','; echo
+ls -pavX
