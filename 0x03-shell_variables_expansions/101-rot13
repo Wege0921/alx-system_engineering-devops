@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "to encode" | tr 'A-Za-z' 'N-ZA-Mn-za-m'|echo "to decode" | tr 'N-ZA-Mn-za-m' 'A-Za-z'
+echo "to encode and decode" | tr 'A-Za-z' 'N-ZA-Mn-za-m'| tr 'N-ZA-Mn-za-m' 'A-Za-z'
